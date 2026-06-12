@@ -23,9 +23,11 @@
 * **기획:** `Gemini` — [기획 아이디어 구체화 목적]
 * **텍스트:** `ChatGPT` — [영문 입력 프롬프트 생성 및 최적화 목적]
 * **이미지 생성:** `Flow, GPT-image` — [브랜드 가이드라인에 맞는 고화질 시각 소스 확보 목적]
-* **비디오 생성:** `Runway Gen-3` — [정지 이미지에 자연스러운 잔상 및 카메라 워킹을 부여하기 위함. Runway의 카메라 줌 기능 등 사용]
+* **비디오 생성:** `Flow, Runway Gen-3` — [정지 이미지에 자연스러운 잔상 및 카메라 워킹을 부여하기 위함]
 * **오디오 생성 (음악 & TTS):** `Suno (BGM) & Supertone (TTS)` — [광고의 톤앤매너에 맞는 배경음악 및 신뢰감 있는 내레이션 생성]
 * **영상 편집:** `Canva` — [AI 소스의 훼손 없이 컷 편집, 자막, 오디오 마스터링 작업만 제한적으로 수행]
+
+_참고: Flow는 매일 50 AI 크레딧을 제공. 비디오 생성에서 [프레임, 16:9, Omni Flash, 6s] 조합으로 10 크레딧 소모._
 
 ## 🎯 3. 멀티모달 제약 사항 해결 전략
 
@@ -75,11 +77,12 @@ AI 멀티모달 제작 과정에서 빈번히 발생하는 한계점들은 아�
 <summary>[유용한 자료]</summary>
 <br>
 
-- AI로 광고 영상 만드는 법: https://www.youtube.com/watch?v=FBvV9bDJ_-8&list=LL&index=2
-- TV CF 모음: https://tvcf.co.kr/
-- 지속가능한 지구를 위한 포장재 트렌드: https://www.chemidream.com/3033
-- 감자로 만든 플라스틱: https://greenium.kr/news/23852/
-- 전분과 식초로 만드는 친환경 플라스틱: https://www.youtube.com/watch?v=6pdlVv4MW_U
+- [AI로 광고 영상 만드는 법](https://www.youtube.com/watch?v=FBvV9bDJ_-8&list=LL&index=2)
+- [TV CF 모음](https://tvcf.co.kr/)
+- [지속가능한 지구를 위한 포장재 트렌드](https://www.chemidream.com/3033)
+- [감자로 만든 플라스틱](https://greenium.kr/news/23852/)
+- [전분과 식초로 만드는 친환경 플라스틱](https://www.youtube.com/watch?v=6pdlVv4MW_U)
+- [친환경 플라스틱 생분해성 원리부터](https://elementkorea.kr/%EC%B9%9C%ED%99%98%EA%B2%BD-%ED%94%8C%EB%9D%BC%EC%8A%A4%ED%8B%B1-%EC%83%9D%EB%B6%84%ED%95%B4%EC%84%B1-%EC%9B%90%EB%A6%AC%EB%B6%80%ED%84%B0/)
 
 <br>
 </details>

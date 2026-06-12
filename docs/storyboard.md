@@ -40,7 +40,7 @@ Please generate two images of this male (one face-shot and one full-body shot) o
 
 <img src="../assets/images/gpt-image_person-key-visual-2.png" width="300">
 
-참고: Flow를 이용해서도 생성했지만 GPT-image 인물 결과가 더 나아서 GPT-image 선택.
+참고: Flow를 이용해서도 생성했지만 GPT-image 인물 이미지 결과가 더 나아서 GPT-image 선택.
 
 <br>
 </details>
@@ -54,12 +54,32 @@ Please generate two images of this male (one face-shot and one full-body shot) o
 - **화면 구성:** 어두운 방 안, 테이블 위에 플라스틱 일회용 용기들이 지저분하게 쌓여 있는 모습. 한 한국 20대 청년이 한숨을 쉬며 쓰레기를 바라보는 시네마틱 탑다운 뷰(Top-down view). 화면 하단에 씁쓸한 자막 배치.
 - **내레이션 / 카피:** (내레이션) "오늘도 맛있게 먹었지만, 마음은 무거우셨나요?"
 - **사용 도구 및 목적:**
-  - 이미지: Flow / 생성된 인물 키 비주얼로 아래 입력 프롬프트를 사용하여 Flow에서 씬 이미지 생성
+  - 이미지: Flow / 생성된 인물 키 비주얼로 아래 입력 프롬프트를 사용하여 Flow에서 씬 이미지 생성.
   - 비디오: Runway Gen-3 / 카메라가 위에서 아래로 천천히 줌인(Zoom-in)하는 미세 모션 추가.
   - 오디오: ElevenLabs / 차분하고 낮게 가라앉은 20대 남성의 한숨 섞인 내레이션.
-- **입력 프롬프트:** `A cinematic top-down view of a small, dimly lit apartment dining table cluttered with empty plastic takeout containers, disposable utensils, and food packaging. A single used wooden chopstick is placed directly inside the container in front of the man. No kitchen is visible. A 27-year-old Korean man sits alone at the table, staring at the pile of waste with a tired expression and a subtle sigh, conveying guilt and discomfort. The room is filled with cold, muted gray-blue tones, creating a heavy and somber atmosphere that reflects the environmental impact of everyday convenience. Realistic urban lifestyle photography, dramatic shadows, shallow depth of field, emotional storytelling, high-end commercial film still, ultra-realistic, 8K. Empty space at the bottom of the frame reserved for subtitle text. 16:9 aspect ratio.`
+- **입력 프롬프트:**
+
+  <details>
+  <summary>[이미지]</summary>
+  <br>
+
+  _A cinematic top-down view of a small, dimly lit apartment dining table cluttered with empty plastic takeout containers, disposable utensils, and food packaging. A single used wooden chopstick is placed directly inside the container in front of the man. A 27-year-old Korean man sits alone at the table, staring at the pile of waste with a tired expression and a subtle sigh, conveying guilt and discomfort. The room is filled with cold, muted gray-blue tones, creating a heavy and somber atmosphere that reflects the environmental impact of everyday convenience. Realistic urban lifestyle photography, dramatic shadows, shallow depth of field, emotional storytelling, high-end commercial film still, ultra-realistic, 8K. Empty space at the bottom of the frame reserved for subtitle text. 16:9 aspect ratio._
+  
+  <br>
+  </details>
+
+  <details>
+  <summary>[비디오]</summary>
+  <br>
+
+  _Slow cinematic top-down push-in. The young man slowly lowers his gaze toward the pile of plastic takeout containers, sighs softly, and slightly slumps his shoulders. The camera gradually tightens on the waste, emphasizing guilt and environmental burden. Faint dust particles drift through the dim room. Cold gray-blue atmosphere, realistic motion, emotional commercial film style._
+  
+  <br>
+  </details>
+  <br>
+
 - **출력 결과 요약 (한 줄):** 플라스틱 쓰레기가 강조된 현대인의 리얼하고 어두운 일상 단면 연출.
-- **생성 결과 파일명:** `scene1_plastic-waste.png` / `scene1_intro_zoom.mp4` / `scene1_narration01.wav`
+- **생성 결과 파일명:** `scene1_plastic-waste.png` / `scene1_plastic-waste.mp4` / `scene1_plastic-waste.wav`
 
 ---
 
@@ -75,7 +95,29 @@ Please generate two images of this male (one face-shot and one full-body shot) o
   - 이미지: GPT-image / 배달앱 UI가 띄워진 스마트폰을 든 손의 감성적인 시네마틱 컷 생성
   - 비디오: Runway Gen-3 / 손가락이 화면을 터치할 때 미세한 화면 움직임과 초록색 체크 마크가 활성화되는 모션 추가.
   - 오디오: Suno & SFX / 터치하는 순간 경쾌한 '띵-' 하는 앱 알림 효과음(SFX)과 산뜻한 어쿠스틱 BGM 시작.
-- **입력 프롬프트:** `A cinematic close-up of a young Korean man (clear skin; short-sleeved t-shirt)'s hand holding a modern smartphone while ordering food through a delivery app. On the payment screen, a clean and minimalist UI displays a green option labeled "[✓] 에코 바이트 용기로 변경 (+500원)"(in Korean language) with a small leaf icon, and the finger gently taps the checkbox. The moment the option is selected, a soft green glow radiates from the button, releasing subtle sparkling particles and tiny floating leaf-shaped lights, suggesting the beginning of a magical environmental change. The background is a warm, sunlit kitchen with soft bokeh, featuring warm orange and organic green tones that create a hopeful and uplifting atmosphere. Ultra-realistic commercial photography, magical realism, shallow depth of field, premium advertising campaign, cinematic lighting, photorealistic, 16:9 aspect ratio, 8K.`
+- **입력 프롬프트:** 
+
+  <details>
+  <summary>[이미지]</summary>
+  <br>
+
+  _A cinematic close-up of a young Korean man (clear skin; short-sleeved t-shirt)'s hand holding a modern smartphone while ordering food through a delivery app. On the payment screen, a clean and minimalist UI displays a green option labeled "[✓] 에코 바이트 용기로 변경 (+500원)"(in Korean language) with a small leaf icon, and the finger gently taps the checkbox. The moment the option is selected, a soft green glow radiates from the button, releasing subtle sparkling particles and tiny floating leaf-shaped lights, suggesting the beginning of a magical environmental change. The background is a warm, sunlit kitchen with soft bokeh, featuring warm orange and organic green tones that create a hopeful and uplifting atmosphere. Ultra-realistic commercial photography, magical realism, shallow depth of field, premium advertising campaign, cinematic lighting, photorealistic, 16:9 aspect ratio, 8K._
+
+  <br>
+  </details>
+
+  <details>
+  <summary>[비디오]</summary>
+  <br>
+
+  _Slow push-in toward the smartphone. The finger gently taps the Eco-Bite checkbox, activating a soft green glow as delicate leaf-shaped particles and sparkles drift outward. Warm, hopeful commercial atmosphere, realistic motion._
+
+  _Slow cinematic push-in toward the smartphone screen. The finger gently taps the Eco-Bite checkbox, triggering a soft green glow. Tiny sparkling particles and leaf-shaped lights emerge from the button and drift naturally through the frame. Warm, hopeful atmosphere, realistic motion, premium commercial film style._
+
+  <br>
+  </details>
+  <br>
+
 - **출력 결과 요약 (한 줄):** 배달앱에서 소비자가 직접 에코 바이트 용기를 선택하는 직관적인 UI 모션 구현.
 - **생성 결과 파일명:** `scene2_app-select.png` / `scene2_ui_touch.mp4` / `scene2_touch_sfx.wav`
 
