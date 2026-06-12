@@ -23,7 +23,7 @@
 **<제품 키 비주얼>**
 
 프롬프트:
-```
+```text
 광고 영상에 나오는 product를 AI 이미지로 제작하려 합니다. "곡물 질감이 살아있는 미색(Oatmeal color)의 에코 바이트 용기. 에코 바이트 용기에는 중앙에 새싹 모양이 결합된 'Eco-Bite' 브랜드 로고가 있고 이 로고는 초록색과 파란색으로 은은하게 인쇄되어 있음."를 이용하여 적절한 이미지를 생성해 주세요. "에코 바이트(Eco-Bite)" 친환경 용기 광고 전체 콘셉트 요약 - 핵심 메시지: "맛있게 드세요, 용기까지 지구에게 양보하세요"라는 카피처럼, 일상 속 작은 배달앱 선택이 쓰레기 대신 자연을 피워내는 위대한 변화를 만든다는 가치를 전달합니다. - 스타일: 일상적인 현실(배달 주문)에 초현실적이고 신비로운 시각 효과(화단에서 팝콘처럼 터지는 개화 모션)를 결합한 매지컬 리얼리즘(Magical Realism) 스타일을 지향합니다. - 분위기: 초반의 무겁고 씁쓸한 일상의 죄책감에서 시작해, 에코 바이트를 선택한 이후부터는 싱그럽고 경이로우며 마법 같은 따뜻하고 희망찬 분위기로 반전됩니다. - 색감: 초반의 어둡고 탁한 도시의 플라스틱 톤에서, 에코 바이트 등장 이후 햇살 가득한 웜 오렌지(Warm Orange)와 자연의 생명력이 넘치는 오가닉 그린(Organic Green) 중심의 따뜻한 시네마틱 색감으로 전환됩니다.
 ```
 
@@ -34,7 +34,7 @@
 **<인물 키 비주얼>**
 
 프롬프트:
-```
+```text
 Please generate two images of this male (one face-shot and one full-body shot) on a white background. Here is the description: "Ultra-realistic Korean male, 27 years old, modern office worker and urban single-person household resident, natural and relatable appearance, warm and approachable face, clear skin, dark brown eyes, neat black hair with soft texture and natural volume, slim athletic build, height around 178cm. Wearing a casual smart outfit: short-sleeved t-shirt, light beige chinos, clean white sneakers. Minimal accessories, simple wristwatch."
 ```
 

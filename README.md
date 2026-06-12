@@ -7,7 +7,7 @@
 - **제작 기간:** 2026.06.09 ~ 2026.06.13 (40시간)
 - **최종 결과물 요약:**
   - **기획 문서:** `storyboard.pdf` (브랜드 아이덴티티 및 스토리보드 포함)
-  - **광고 영상:** `eco-bite.mp4` ([영상 길이]초, 1080p, H.264/AAC)
+  - **광고 영상:** `eco-bite.mp4` (34초, 1080p, H.264/AAC)
 
 ## 🛠 2. AI 아키텍처 및 파이프라인 (AI Tool Pipeline)
 
@@ -16,7 +16,7 @@
 |  | 기획/텍스트 | 이미지 | 비디오 | 음악 (BGM) | 음성 (TTS) | 영상 편집 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 사용 도구 | Gemini / ChatGPT | Flow, GPT-Image | Runway Gen-3 | Suno | Supertone | Canva |
-| 대체 도구 | Claude | Kling, Pika, Firefly, Canva AI, Stable Diffusion | Kling, Pika, Firefly, Canva AI Video Generator, Flow, Luma Dream Machine | Udio, Loudly, Stable Audio, Mubert | ElevenLabs, Typecast, Vrew | Clipchamp(초급), CapCut(중급), Premiere Pro(전문가) |
+| 대체 도구 | Claude | Kling, Pika, Firefly, Canva AI, Stable Diffusion | Kling, Pika, Flow, Luma Dream Machine, Firefly, Canva AI Video Generator | Udio, Loudly, Stable Audio, Mubert | ElevenLabs, Typecast, Vrew | Clipchamp(초급), CapCut(중급), Premiere Pro(전문가) |
 
 **단계별 선택 도구 및 이유:**
 
@@ -58,7 +58,7 @@ AI 멀티모달 제작 과정에서 빈번히 발생하는 한계점들은 아�
 ## ▶️ 5. 실행 및 확인 방법 (How to Review)
 기획 및 프롬프트 상세 내용 확인: `docs/` 폴더 내의 마크다운 기획서 혹은 제출된 PDF 파일을 참조.
 
-최종 광고 영상 재생: 최상위 디렉토리의 `storyboard.mp4`를 플레이어로 재생하거나, [유튜브/드라이브 링크 입력]를 통해 확인 가능.
+최종 광고 영상 재생: 최상위 디렉토리의 `eco-bite.mp4`를 플레이어로 재생하거나, [유튜브/드라이브 링크 입력]를 통해 확인 가능.
 
 ---
 
