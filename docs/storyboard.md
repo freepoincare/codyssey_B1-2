@@ -27,7 +27,7 @@
 광고 영상에 나오는 product를 AI 이미지로 제작하려 합니다. "곡물 질감이 살아있는 미색(Oatmeal color)의 에코 바이트 용기. 에코 바이트 용기에는 중앙에 새싹 모양이 결합된 'Eco-Bite' 브랜드 로고가 있고 이 로고는 초록색과 파란색으로 은은하게 인쇄되어 있음."를 이용하여 적절한 이미지를 생성해 주세요. "에코 바이트(Eco-Bite)" 친환경 용기 광고 전체 콘셉트 요약 - 핵심 메시지: "맛있게 드세요, 용기까지 지구에게 양보하세요"라는 카피처럼, 일상 속 작은 배달앱 선택이 쓰레기 대신 자연을 피워내는 위대한 변화를 만든다는 가치를 전달합니다. - 스타일: 일상적인 현실(배달 주문)에 초현실적이고 신비로운 시각 효과(화단에서 팝콘처럼 터지는 개화 모션)를 결합한 매지컬 리얼리즘(Magical Realism) 스타일을 지향합니다. - 분위기: 초반의 무겁고 씁쓸한 일상의 죄책감에서 시작해, 에코 바이트를 선택한 이후부터는 싱그럽고 경이로우며 마법 같은 따뜻하고 희망찬 분위기로 반전됩니다. - 색감: 초반의 어둡고 탁한 도시의 플라스틱 톤에서, 에코 바이트 등장 이후 햇살 가득한 웜 오렌지(Warm Orange)와 자연의 생명력이 넘치는 오가닉 그린(Organic Green) 중심의 따뜻한 시네마틱 색감으로 전환됩니다.
 ```
 
-<img src="assets/images/gpt-image_product-key-visual.png" width="300">
+<img src="../assets/images/gpt-image_product-key-visual.png" width="300">
 
 ---
 
@@ -38,7 +38,7 @@
 Please generate two images of this male (one face-shot and one full-body shot) on a white background. Here is the description: "Ultra-realistic Korean male, 27 years old, modern office worker and urban single-person household resident, natural and relatable appearance, warm and approachable face, clear skin, dark brown eyes, neat black hair with soft texture and natural volume, slim athletic build, height around 178cm. Wearing a casual smart outfit: short-sleeved t-shirt, light beige chinos, clean white sneakers. Minimal accessories, simple wristwatch."
 ```
 
-<img src="assets/images/gpt-image_person-key-visual-2.png" width="300">
+<img src="../assets/images/gpt-image_person-key-visual-2.png" width="300">
 
 참고: Flow를 이용해서도 생성했지만 GPT-image 인물 결과가 더 나아서 GPT-image 선택.
 
@@ -47,7 +47,7 @@ Please generate two images of this male (one face-shot and one full-body shot) o
 
 ### ◼️ 씬 1 (Intro: 일상의 문제 제기)
 
-<img src="assets/images/scene1_plastic-waste.jpeg" width="300">
+<img src="../assets/images/scene1_plastic-waste.jpeg" width="300">
 
 - **씬 길이:** 5초 (누적: 5초)
 - **목표 메시지:** 배달 음식을 먹은 뒤 쌓이는 플라스틱 쓰레기에 대한 죄책감 자극.
@@ -65,7 +65,7 @@ Please generate two images of this male (one face-shot and one full-body shot) o
 
 ### ◼️ 씬 2 (Concept: 배달앱에서의 '에코 바이트' 선택)
 
-<img src="assets/images/scene2_app-select.png" width="300">
+<img src="../assets/images/scene2_app-select.png" width="300">
 
 - **씬 길이:** 5초 (누적: 10초)
 - **목표 메시지:** 소비자가 배달앱에서 직접 친환경 용기를 '선택'할 수 있다는 서비스 전제 제시.
@@ -85,7 +85,7 @@ _참고: 씬 2부터 GPT-image에 생성한 인물 키 비주얼을 Flow에 업�
 
 ### ◼️ 씬 3 (Development: 친환경 배달 음식 수령 및 식사)
 
-<img src="assets/images/scene3_eating-happy.png" width="300">
+<img src="../assets/images/scene3_eating-happy.png" width="300">
 
 - **씬 길이:** 5초 (누적: 15초)
 - **목표 메시지:** 내가 선택한 에코 바이트 용기에 담긴 음식을 죄책감 없이 건강하고 맛있게 즐기는 모습 연출.
@@ -103,7 +103,7 @@ _참고: 씬 2부터 GPT-image에 생성한 인물 키 비주얼을 Flow에 업�
 
 ### ◼️ 씬 4 (Action: 식사 후 정원으로 이동)
 
-<img src="assets/images/scene4_heading-to-balcony.png" width="300">
+<img src="../assets/images/scene4_heading-to-balcony.png" width="300">
 
 - **씬 길이:** 5초 (누적: 20초)
 - **목표 메시지:** 내가 선택한 에코 바이트 용기에 담긴 음식을 맛있게 즐긴 후 자연으로 향하는 행동 묘사.
@@ -121,7 +121,7 @@ _참고: 씬 2부터 GPT-image에 생성한 인물 키 비주얼을 Flow에 업�
 
 ### ◼️ 씬 5 (Climax: 마법 같은 생분해 모션 - 핵심 비주얼)
 
-<img src="assets/images/scene5_flower-burst.png" width="300">
+<img src="../assets/images/scene5_flower-burst.png" width="300">
 
 - **씬 길이:** 5초 (누적: 25초)
 - **목표 메시지:** 용기가 분해되며 꽃이 피어나는 브랜드의 핵심 시각 퍼포먼스(영양제 효과) 표현.
@@ -139,7 +139,7 @@ _참고: 씬 2부터 GPT-image에 생성한 인물 키 비주얼을 Flow에 업�
 
 ### ◼️ 씬 6 (Message: 핵심 슬로건 전달)
 
-<img src="assets/images/scene6_golden-field.png" width="300">
+<img src="../assets/images/scene6_golden-field.png" width="300">
 
 - **씬 길이:** 5초 (누적: 30초)
 - **목표 메시지:** 광고의 핵심 카피를 시각/청각으로 각인시키며 감동 선사.
@@ -157,7 +157,7 @@ _참고: 씬 2부터 GPT-image에 생성한 인물 키 비주얼을 Flow에 업�
 
 ### ◼️ 씬 7 (Outro: 브랜드 인지 및 CTA)
 
-<img src="assets/images/scene7_brand.png" width="300">
+<img src="../assets/images/scene7_brand.png" width="300">
 
 - **씬 길이:** 4초 (누적: 34초)
 - **목표 메시지:** 브랜드 로고와 웹사이트 주소를 노출하여 구매 및 검색 유도.
@@ -198,11 +198,11 @@ _참고: 씬 2부터 GPT-image에 생성한 인물 키 비주얼을 Flow에 업�
     <tr>
       <td align="center">
         <figcaption>Flow: 수정 전</figcaption>
-        <img src="assets/images/scene1_plastic-waste-chopsticks.jpeg" width="300">
+        <img src="../assets/images/scene1_plastic-waste-chopsticks.jpeg" width="300">
       </td>
       <td align="center">
         <figcaption>Flow: 수정 후</figcaption>
-        <img src="assets/images/scene1_plastic-waste.jpeg" width="300">
+        <img src="../assets/images/scene1_plastic-waste.jpeg" width="300">
       </td>
     </tr>
   </table>
