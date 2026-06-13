@@ -5,7 +5,7 @@
 ### 1.1 브랜드 기본 정보
 - **브랜드명:** "에코 바이트 (Eco-Bite)" (가상의 친환경 용기 브랜드)
 - **타겟 고객:** 환경 보호에 관심이 많고 배달/테이크아웃을 자주 이용하는 2030 1인 가구 및 친환경 가치 소비층.
-- **톤앤매너:** 내추럴 오가닉, 생동감 넘치는 매지컬 리얼리즘(Magical Realism), 시네마틱, 따뜻하고 희망찬 무드.
+- **톤앤매너:** 내추럴 오가닉, 생동감 넘치는 Magical Realism(마술적 사실주의: 실제+환상), 시네마틱, 따뜻하고 희망찬 무드.
 - **차별점 (USP):** 감자 전분과 곡물 껍질로 만든 100% 생분해성 식가공 용기로, 버려진 후 24시간 내에 천연 영양제로 분해되어 식물을 피워내는 가치 제공.
 
 ### 1.2 캠페인 전략
@@ -56,7 +56,8 @@ Please generate two images of this male (one face-shot and one full-body shot) o
 - **사용 도구 및 목적:**
   - 이미지: `Flow - Nano Banana 2` ➔ 생성된 인물 키 비주얼로 입력 프롬프트를 사용하여 Flow에서 씬 이미지 생성.
   - 비디오: `Flow - Omni Flash` ➔ 카메라가 위에서 아래로 천천히 줌인(Zoom-in)하는 미세 모션 추가.
-  - 오디오: `ElevenLabs` ➔ 차분하고 낮게 가라앉은 20대 남성의 한숨 섞인 내레이션.
+  - 오디오 BGM: `Suno` 
+  - 오디오 BGM: `ElevenLabs` ➔ 차분하고 낮게 가라앉은 20대 남성의 한숨 섞인 내레이션.
 - **입력 프롬프트:**
 
   <details>
@@ -79,10 +80,18 @@ Please generate two images of this male (one face-shot and one full-body shot) o
   
   <br>
   </details>
+  
+  <details>
+  <summary>[오디오 BGM]</summary>
+  <br>
+
+  _Cinematic ambient piano, modern eco-commercial soundtrack, reflective and slightly melancholic mood, felt piano, soft string pads, subtle ambient textures, gentle organic sound design, minimal instrumentation, emotional but not sad, warm and human, slow tempo around 68 BPM, spacious reverb, delicate piano motifs, introspective atmosphere, premium documentary-commercial style, environmental awareness theme, cinematic realism, understated and elegant. Instrumental only, no vocals._
+
+  </details>
   <br>
 
 - **출력 결과 요약 (한 줄):** 플라스틱 쓰레기가 강조된 현대인의 리얼하고 어두운 일상 단면 연출.
-- **생성 결과 파일명:** `scene1_plastic-waste.png` / `scene1_plastic-waste.mp4` / `scene1_plastic-waste.wav`
+- **생성 결과 파일명:** `scene1_plastic-waste.png` / `scene1_plastic-waste.mp4` / `scene1_plastic-waste_bgm.mp3` / `scene1_plastic-waste_tts.wav`
 
 ---
 
@@ -124,10 +133,22 @@ Please generate two images of this male (one face-shot and one full-body shot) o
 
     <br>
     </details>
+    
+    <details>
+    <summary>[오디오 BGM]</summary>
+    <br>
+
+    (씬 2 ~ 씬 7)
+    * `Lyrics`(가사)는 빈 칸으로 놓고, 
+    * `Styles` 에 아래 프롬프트 작성:
+
+    _Neo-classical cinematic soundtrack with organic acoustic elements, warm piano, intimate strings, subtle cello, light percussion, evolving orchestration, magical and inspiring mood, environmental transformation, wonder and hope, elegant emotional build, premium advertising music, golden sunlight atmosphere, cinematic storytelling, moderate tempo 92 BPM, emotional climax during blooming flower transformation, gentle uplifting finale, instrumental only._
+
+    </details>
     <br>
 
 - **출력 결과 요약 (한 줄):** 배달앱에서 소비자가 직접 에코 바이트 용기를 선택하는 직관적인 UI 모션 구현.
-- **생성 결과 파일명:** `scene2_app-select.png` / `scene2_app-select.mp4` / `scene2_app-select.wav`
+- **생성 결과 파일명:** `scene2_app-select.png` / `scene2_app-select.mp4` / `scene2_app-select_tts.wav`
 
 ---
 
@@ -163,12 +184,11 @@ Please generate two images of this male (one face-shot and one full-body shot) o
 
   _Slow cinemaic push-in toward the young man enjoying his meal. He gently lifts a forkful of salad pasta, takes a bite, and smiles naturally with a relaxed and satisfied expression. He briefly glances at the Eco-Bite container before continuing to enjoy his meal. Subtle sunlight flickers across the table while the Eco-Bite container remains clearly visible in the foreground. Warm, comfortable atmosphere, realistic lifestyle motion, natural eating behavior, premium commercial cinematography, slow and uplifting pacing._
 
-  <br>
   </details>
   <br>
 
 - **출력 결과 요약 (한 줄):** 친환경 용기 덕분에 플라스틱 죄책감 없이 행복하게 식사하는 감성적 장면 연출.
-- **생성 결과 파일명:** `scene3_eating-happy.png` / `scene3_eating-happy.mp4` / `scene3_eating-happy.wav`
+- **생성 결과 파일명:** `scene3_eating-happy.png` / `scene3_eating-happy.mp4` / `scene3_eating-happy_tts.wav`
 
 ---
 
@@ -204,12 +224,11 @@ Please generate two images of this male (one face-shot and one full-body shot) o
 
   _Slow cinematic tracking shot following the man from behind as he walks toward the sunlit balcony garden holding the empty Eco-Bite container. The camera gently pans with his movement, creating a smooth and uplifting sense of progression. Warm sunlight filters through the plants while subtle leaf-shaped particles drift through the air, hinting at the magical transformation to come. Natural walking motion, optimistic mood, premium commercial cinematography, realistic movement, warm and inviting atmosphere._
 
-  <br>
   </details>
   <br>
 
 - **출력 결과 요약 (한 줄):** 식사 후 친환경 용기를 들고 자연 친화적인 공간이나 화단으로 이동하는 주인공의 경쾌한 움직임 연출.
-- **생성 결과 파일명:** `scene4_heading-to-balcony.png` / `scene4_heading-to-balcony.mp4` / `scene4_heading-to-balcony.wav`
+- **생성 결과 파일명:** `scene4_heading-to-balcony.png` / `scene4_heading-to-balcony.mp4` / `scene4_heading-to-balcony_tts.wav`
 
 ---
 
@@ -248,12 +267,11 @@ Please generate two images of this male (one face-shot and one full-body shot) o
 
   참고) `Flow - Omni Flash`에서는 Start이미지만 넣을 수 있고 End이미지를 넣을 수 없음. `Flow - Veo 3.1 Lite`에서는 End 이미지도 넣을 수 있어서 `Veo 3.1 Lite` 사용.
 
-  <br>
   </details>
   <br>
 
 - **출력 결과 요약 (한 줄):** 용기가 천연 영양제로 변해 꽃을 피우는 매지컬 리얼리즘의 시각적 절정.
-- **생성 결과 파일명:** `scene5_flower-burst.png` / `scene5_flower-burst.mp4` / `scene5_flower-burst.wav`
+- **생성 결과 파일명:** `scene5_flower-burst.png` / `scene5_flower-burst.mp4` / `scene5_flower-burst_bgm.mp3`
 
 ---
 
@@ -289,12 +307,11 @@ Please generate two images of this male (one face-shot and one full-body shot) o
 
   _Slow cinematic push-in over a vast blooming flower meadow. Warm golden-hour sunlight streams through the scene as flower petals drift gently in the air. Sparkling pollen particles float softly above the flowers, creating a magical yet natural atmosphere. The camera glides forward with subtle motion while elegant typography gradually fades in at the center in Korean language: "맛있게 드세요, 용기까지 지구에게 양보하세요." Premium commercial advertising, magical realism, ultra-realistic cinematic photography, soft depth of field, organic motion, inspiring and hopeful mood._
 
-  <br>
   </details>
   <br>
 
 - **출력 결과 요약 (한 줄):** 핵심 카피와 어우러지는 따뜻하고 아름다운 자연의 엔딩 무드 완성.
-- **생성 결과 파일명:** `scene6_golden-field.png` / `scene6_golden-field.mp4` / `scene6_golden-field.wav`
+- **생성 결과 파일명:** `scene6_golden-field.png` / `scene6_golden-field.mp4` / `scene6_golden-field_tts.wav`
 
 ---
 
@@ -331,12 +348,11 @@ Please generate two images of this male (one face-shot and one full-body shot) o
 
   _Clean cinematic brand end card. Soft organic sunlight and gentle leaf shadows move naturally across the background. Small green leaves drift slowly through the air while subtle floating particles create a premium eco-friendly atmosphere. The Eco-Bite logo remains sharp and centered as the camera performs a very slow, elegant push-in. The slogan and search bar stay clearly visible while ambient natural motion enhances the scene. Premium commercial advertising, minimalist design, warm organic color palette, ultra-realistic lighting, luxury brand reveal, smooth motion, polished product launch aesthetic._
 
-  <br>
   </details>
   <br>
 
 - **출력 결과 요약 (한 줄):** 가독성을 극대화한 미니멀 오가닉 배경 위 브랜드 아이덴티티 최종 각인.
-- **생성 결과 파일명:** `scene7_brand.png` / `scene7_brand.mp4` / `scene7_brand.wav`
+- **생성 결과 파일명:** `scene7_brand.png` / `scene7_brand.mp4` / `scene7_brand_tts.wav`
 
 ---
 

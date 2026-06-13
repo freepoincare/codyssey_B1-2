@@ -15,19 +15,23 @@
 
 |  | 기획/텍스트 | 이미지 | 비디오 | 음악 (BGM) | 음성 (TTS) | 영상 편집 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 사용 도구 | Gemini / ChatGPT | Flow, GPT-Image | Runway Gen-3 | Suno | Supertone | Canva |
-| 대체 도구 | Claude | Kling, Pika, Firefly, Canva AI, Stable Diffusion | Kling, Pika, Flow, Luma Dream Machine, Firefly, Canva AI Video Generator | Udio, Loudly, Stable Audio, Mubert | ElevenLabs, Typecast, Vrew | Clipchamp(초급), CapCut(중급), Premiere Pro(전문가) |
+| 사용 도구 | Gemini / ChatGPT | [Flow](https://labs.google/fx/tools/flow), GPT-Image | [Flow](https://labs.google/fx/tools/flow) | [Suno](https://suno.com/) | [Supertone](https://play.supertone.ai/) | [Canva](https://www.canva.com/) |
+| 대체 도구 | Claude | Kling, Pika, Firefly, Canva AI, Stable Diffusion | Runway Gen-3, Kling, Pika, Flow, Luma Dream Machine, Firefly, Canva AI Video Generator | Udio, Loudly, Stable Audio, Mubert | ElevenLabs, Typecast, Vrew | Clipchamp(초급), CapCut(중급), Premiere Pro(전문가) |
 
 **단계별 선택 도구 및 이유:**
 
 * **기획:** `Gemini` — [기획 아이디어 구체화 목적]
 * **텍스트:** `ChatGPT` — [영문 입력 프롬프트 생성 및 최적화 목적]
 * **이미지 생성:** `Flow, GPT-image` — [브랜드 가이드라인에 맞는 고화질 시각 소스 확보 목적]
-* **비디오 생성:** `Flow, Runway Gen-3` — [정지 이미지에 자연스러운 잔상 및 카메라 워킹을 부여하기 위함]
+* **비디오 생성:** `Flow` — [정지 이미지에 자연스러운 잔상 및 카메라 워킹을 부여하기 위함]
 * **오디오 생성 (음악 & TTS):** `Suno (BGM) & Supertone (TTS)` — [광고의 톤앤매너에 맞는 배경음악 및 신뢰감 있는 내레이션 생성]
 * **영상 편집:** `Canva` — [AI 소스의 훼손 없이 컷 편집, 자막, 오디오 마스터링 작업만 제한적으로 수행]
 
-_참고: Flow는 매일 50 AI 크레딧을 제공. 무료 버전은 Start이미지만 넣을 수 있음. 비디오 생성에서 [프레임, 16:9, Omni Flash, 6s] 조합으로 10 크레딧 소모._
+**무료 제한:**
+* Flow: 매일 50 AI 크레딧을 제공. 무료 버전은 Start이미지만 넣을 수 있음. 비디오 생성에서 [프레임, 16:9, Omni Flash, 6s] 조합으로 10 크레딧 소모. (Runway Gen-3는 유료 버전으로 안내해서 그냥 사용 안 함)_
+* Suno: 매일 50 무료 크레딧을 지급하여 약 10곡의 노래를 생성 (보통 곡당 5 크레딧 소모)
+* Supertone: 월 3000 무료 크레딧 (5분)
+* Canva: 자르기, 이어붙이기, 텍스트 추가, 전환 효과 등 기본적인 영상 편집 기능은 무료로 무제한 사용
 
 ## 🎯 3. 멀티모달 제약 사항 해결 전략
 
@@ -47,9 +51,9 @@ AI 멀티모달 제작 과정에서 빈번히 발생하는 한계점들은 아�
 
 ```text
 ├── assets/
-│   ├── images/             # AI로 생성한 각 씬별 원본 이미지 (.png, .jpeg) (local에 없음)
+│   ├── images/             # AI로 생성한 각 씬별 원본 이미지 (.png, .jpeg) (local에 있음)
 │   ├── videos/             # 이미지를 비디오로 변환한 소스 컷 (.mp4)
-│   └── audio/              # BGM 소스 및 TTS 내레이션 파일 (.mp3 / .wav) (local에 없음)
+│   └── audio/              # BGM 소스 및 TTS 내레이션 파일 (.mp3 / .wav) (local에 있음)
 ├── docs/
 │   ├── storyboard.md       # 메인 기획 문서 (.md)
 │   └── storyboard.pdf      # 메인 기획 문서 (.pdf)
