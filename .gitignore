@@ -1,4 +1,9 @@
 mission_statement.pdf
 assets/images/scene5_flower-burst_0.png
+assets/images/archive/*.png
+assets/images/archive/*.jpg
 *.txt
 *.docx
+audio/*.mp3
+audio/*.wav
+video/*.mp4
