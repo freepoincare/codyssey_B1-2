@@ -6,7 +6,7 @@
 
 - **제작 기간:** 2026.06.09 ~ 2026.06.14 (40시간)
 - **최종 결과물 요약:**
-  - **기획 문서:** `storyboard.pdf` (브랜드 아이덴티티 및 스토리보드 포함)
+  - **기획 문서:** [storyboard.md](docs/storyboard.md) / [storyboard.pdf](docs/storyboard.pdf) (브랜드 아이덴티티 및 스토리보드 포함)
   - **광고 영상:** `eco-bite.mp4` (42초, 1080p) / [유튜브 링크](https://youtu.be/iHyX0dlCTBQ)
 
 ## 🛠 2. AI 아키텍처 및 파이프라인 (AI Tool Pipeline)
@@ -55,14 +55,14 @@ AI 멀티모달 제작 과정에서 빈번히 발생하는 한계점들은 아�
 │   ├── videos/             # 이미지를 비디오로 변환한 소스 컷 (.mp4)
 │   └── audio/              # BGM 소스 및 TTS 내레이션 파일 (.mp3 / .wav)
 ├── docs/
-│   ├── storyboard.md       # 메인 기획서 (.md)
-│   └── storyboard.pdf      # 메인 기획서 (.pdf)
+│   ├── storyboard.md       # 기획 문서 (.md)
+│   └── storyboard.pdf      # 기획 문서 (.pdf)
 ├── eco-bite.mp4            # 최종 인코딩된 광고 영상
 └── README.md               # 본 문서
 ```
 
 ## ▶️ 5. 실행 및 확인 방법 (How to Review)
-기획 및 프롬프트 상세 내용 확인: `docs/` 폴더 내의 메인 기획서인 [storyboard.md](docs/storyboard.md) 혹은 [storyboard.pdf](docs/storyboard.pdf) 파일을 참조.
+기획 및 프롬프트 상세 내용 확인: `docs/` 폴더 내의 기획 문서인 [storyboard.md](docs/storyboard.md) 혹은 [storyboard.pdf](docs/storyboard.pdf) 파일을 참조.
 
 최종 광고 영상 재생: 최상위 디렉토리의 `eco-bite.mp4`를 플레이어로 재생하거나, [유튜브 링크](https://youtu.be/iHyX0dlCTBQ)를 통해 확인 가능.
 
