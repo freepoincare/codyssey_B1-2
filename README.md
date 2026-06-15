@@ -16,7 +16,7 @@
 |  | 기획/텍스트 | 이미지 | 비디오 | 음악 (BGM) | 음성 (TTS) | 영상 편집 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 사용 도구 | Gemini / ChatGPT | [Flow](https://labs.google/fx/tools/flow), GPT-Image | [Flow](https://labs.google/fx/tools/flow) | [Suno](https://suno.com/) | [Supertone](https://play.supertone.ai/) | [Canva](https://www.canva.com/) |
-| 대체 도구 | Claude | Kling, Pika, Firefly, Canva AI, Stable Diffusion | Runway Gen-3, Kling, Pika, Luma Dream Machine, Firefly, Canva AI Video Generator | Udio, Loudly, Stable Audio, Mubert | ElevenLabs, Typecast, Vrew | Clipchamp(초급), CapCut(중급), Premiere Pro(전문가) |
+| 대체 도구 | Claude | Kling, Pika, Firefly, Canva AI, Stable Diffusion | Runway Gen-3, Kling, Pika, Luma Dream Machine, Firefly, Canva AI Video Generator | [Flow Music](https://flowmusic.app), Udio, Loudly, Stable Audio, Mubert | ElevenLabs, Typecast, Vrew | Clipchamp(초급), CapCut(중급), Premiere Pro(전문가) |
 
 **단계별 선택 도구 및 이유:**
 
